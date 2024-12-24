@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light mode styles */
+body.light-mode {
+    background-color: #F4EDD3;
+    color: #2A3335;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #2A3335;
+    color: #F4EDD3;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.dark-mode{
+    background-color: #2A3335;
+    color: #F4EDD3;
+}
+button.light-mode{
+    background-color: #F4EDD3;
+    color: #2A3335;
+}
