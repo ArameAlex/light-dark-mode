@@ -2,19 +2,43 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-image 0.4s ease, color 0.4s ease;
 }
 
 /* Light mode styles */
 body.light-mode {
     background-color: #F4EDD3;
     color: #2A3335;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* Dark mode styles */
 body.dark-mode {
     background-color: #2A3335;
     color: #F4EDD3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.back1 {
+    background-image: url("image/light.jpg");
+}
+
+.back2 {
+    background-image: url("image/light2.jpg");
+}
+
+.back3 {
+    background-image: url("image/dark.jpg");
+}
+
+.back4 {
+    background-image: url("image/dark2.jpg");
 }
 
 .container {
